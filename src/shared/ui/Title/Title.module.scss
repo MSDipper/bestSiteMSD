@@ -1,0 +1,28 @@
+.title {
+    cursor: default;
+    margin: 0;
+}
+
+.h1[title] {
+    font-size: var(--xl);
+}
+
+.h2[title] {
+    font-size: var(--lg);
+}
+
+.h3[title] {
+    font-size: var(--base);
+}
+
+.h4[title] {
+    font-size: var(--sm);
+}
+
+.h5[title] {
+    font-size: var(--sx);
+}
+
+.h6[title] {
+    font-size: calc(var(--sx) / 2);
+}
